@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ramasubramanian 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2088FF&center=true&vCenter=true&width=600&lines=Aspiring+DevOps+%2F+Cloud+Engineer;CI%2FCD+%7C+Kubernetes+%7C+Terraform+%7C+AWS;Based+in+Madurai%2C+India+%E2%80%94+open+to+remote" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2088FF&center=true&vCenter=true&width=600&lines=Aspiring+DevOps+%2F+Cloud+Engineer;CI%2FCD+%7C+Kubernetes+%7C+Terraform+%7C+AWS;Based+in+Madurai%2C+India+%E2%80%94" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://projectbyram.shop"><img src="https://img.shields.io/badge/Live_Demo-2088FF?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://https://www.linkedin.com/in/ramasubramanian-tech"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:ramasubramanian.tech@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  
 </p>
 
 ---
@@ -24,6 +24,8 @@
 - 📈 Setting up observability with **Prometheus, Grafana, Jaeger and OpenTelemetry**
 - 🐍 Learning **Python for DevOps** automation
 - 💼 Looking for an **entry-level DevOps / Cloud Engineer** role
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -42,38 +44,108 @@
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
+---
+
 ## 📌 Featured Projects
 
-| Project | What it does | Tech |
-|---|---|---|
-| [**devsecops-demo**](https://github.com/ramasubramanian06/devsecops-demo) | React + TypeScript app containerized with Docker, with Kubernetes manifests and GitHub Actions workflows | Docker, Kubernetes, GitHub Actions |
-| [**observability-Learning**](https://github.com/ramasubramanian06/observability-Learning) | Hands-on observability practice (metrics, logs, traces) | Prometheus, Grafana, Go |
-| [**Jenkins-Learning**](https://github.com/ramasubramanian06/Jenkins-Learning) | Jenkins pipelines and CI practice | Jenkins, Python |
-| [**kubernetes-GatewayAPI-Learning**](https://github.com/ramasubramanian06/kubernetes-GatewayAPI-Learning) | Notes on Kubernetes Gateway API | Kubernetes |
-| [**microservices-appication**](https://github.com/ramasubramanian06/microservices-appication) | Microservices application | TypeScript |
-| [**miniproject--bash-scripting**](https://github.com/ramasubramanian06/miniproject--bash-scripting) | Bash scripting mini project | Bash, HTML |
+### ☁️ AWS EKS Microservices DevOps Platform
+`AWS` • `Terraform` • `Docker` • `Kubernetes` • `Helm` • `GitHub Actions` • `Argo CD` • `Prometheus` • `Grafana`
 
-<!-- TIP: replace/add rows for your strongest own projects (EKS observability, Terraform, GitOps) and pin them on your profile -->
+- Provisioned AWS infrastructure using Terraform
+- Deployed microservices on Amazon EKS
+- Containerized applications using Docker
+- Implemented CI/CD automation
+- Implemented GitOps using Argo CD
+- Configured Helm-based deployments
+- Added Prometheus and Grafana monitoring
+- Configured Kubernetes ingress and autoscaling
 
-## 📊 GitHub Stats
+🔗 [View Project](https://github.com/ramasubramanian06/DevOps_mainproject)
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ramasubramanian06&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramasubramanian06&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+### 🔐 DevSecOps CI/CD Pipeline
+`GitHub Actions` • `Docker` • `Trivy` • `GHCR` • `Kubernetes` • `Argo CD`
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ramasubramanian06&theme=tokyonight&hide_border=true" />
-</p>
+- Built an automated CI/CD pipeline using GitHub Actions
+- Added application testing and static analysis
+- Integrated Trivy container security scanning
+- Built and pushed Docker images to GitHub Container Registry
+- Deployed workloads to Kubernetes
+- Implemented GitOps deployment using Argo CD
 
-## 🎯 My approach
+🔗 [View Project](https://github.com/ramasubramanian06/devsecops-demo)
 
-- **Automate it** — if I do something twice, I script it.
-- **Tear down what I don't use** — I manage AWS cost by destroying infra between sessions.
-- **Document honestly** — every README describes what the project actually does.
+### 🏗️ AWS Infrastructure with Terraform
+`Terraform` • `AWS` • `S3` • `DynamoDB`
+
+- Provisioned AWS infrastructure using Terraform
+- Configured remote Terraform state using Amazon S3
+- Implemented state locking
+- Enabled state versioning
+- Tested concurrent Terraform operations
+
+🔗 [View Project](https://github.com/ramasubramanian06/Terraform-project)
+
+### 🚢 Go Application on Kubernetes
+`Go` • `Docker` • `Kubernetes` • `Helm` • `GitHub Actions`
+
+- Containerized a Go web application
+- Created Kubernetes deployment and service configurations
+- Packaged the application using Helm
+- Configured ingress
+- Automated build and container image publishing using GitHub Actions
+
+🔗 [View Project](https://github.com/ramasubramanian06/Go-web-application)
+
+### 🔭 Microservices Observability on EKS
+`AWS EKS` • `Helm` • `OpenTelemetry` • `Jaeger` • `Prometheus` • `Grafana`
+
+- Deployed the OpenTelemetry Astronomy Shop (12+ microservices) on Amazon EKS using its official Helm chart
+- Configured the OpenTelemetry Collector to route traces and metrics
+- Set up distributed tracing with Jaeger
+- Set up metrics monitoring with Prometheus (kube-prometheus-stack) and Grafana dashboards
+- Debugged service-selector and access issues across the observability stack
+
+🔗 [View Project](https://github.com/ramasubramanian06/observability-otel-demo)
+
+### ⚙️ Django Todo App — Jenkins CI/CD + Argo CD GitOps
+`Python` • `Django` • `Docker` • `Jenkins` • `Kubernetes` • `Argo CD`
+
+- Containerized a Django Todo application with Docker
+- Built a Jenkins pipeline that builds, tags (build number) and pushes images to Docker Hub
+- Automated Kubernetes manifest updates and pushed them back to GitHub
+- Used Argo CD to sync the cluster with Git as the single source of truth
+- Separated CI (Jenkins) from CD (Argo CD)
+
+🔗 [View Project](https://github.com/ramasubramanian06/python-jenkins-project)
+
 
 ---
 
-<p align="center">
-  <i>⭐ Open to DevOps / Cloud roles across India (relocation and remote) — let's connect!</i>
-</p>
+## 📚 Currently Learning
+
+- Advanced Terraform
+- Python for DevOps automation
+- AWS cloud automation with Boto3
+- AWS cost optimization
+- Kubernetes administration and troubleshooting
+
+---
+
+
+## 🎯 What I'm Looking For
+
+I'm currently preparing for **Junior DevOps Engineer / Cloud Engineer** opportunities where I can apply my hands-on experience with AWS, Kubernetes, Terraform, Docker, CI/CD, and GitOps while continuing to grow as a DevOps professional.
+
+---
+
+
+## 📫 Connect With Me
+
+- 💼 LinkedIn: [Add your LinkedIn profile](https://www.linkedin.com/in/YOUR-LINKEDIN)
+- 📧 Email: [ramasubramanian.tech@gmail.com](mailto:ramasubramanian.tech@gmail.com)
+- 🐙 GitHub: [@ramasubramanian06](https://github.com/ramasubramanian06)
+
+
+---
+
+⭐ Feel free to explore my repositories and projects.
